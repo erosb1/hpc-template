@@ -4,7 +4,7 @@ A lightweight template for prototyping and microbenchmarking high-performance al
 
 ## Intended Use
 This repository serves as a starter kit to quickly set up isolated benchmarking environments.
-It is primarily intended for linear algebra workloads, but also works for benchmarking other
+It is primarily intended for linear algebra workloads, but works for benchmarking any algorithm.
 
 ---
 
