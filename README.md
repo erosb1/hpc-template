@@ -40,11 +40,13 @@ Ensure the path to the global `vcpkg` repository clone is exported in your shell
 export VCPKG_ROOT="$HOME/vcpkg"
 ```
 
+---
+
 ## Build Instructions
 This repository uses the following two CMake presets:
 
 ### 1. Debug Build
-Compiles with `-g` and no optimizations.
+Compiles with `-g` and no optimizations. Use this one for development.
 ```bash
 cmake --preset debug
 
@@ -54,7 +56,7 @@ cmake --build build/debug
 ```
 
 ### 2. Release Build
-Compiles with `-O3` and `-march=native`.
+Compiles with `-O3` and `-march=native`. Use this one for benchmarking.
 ```bash
 cmake --preset release-native
 
