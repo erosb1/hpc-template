@@ -1,0 +1,13 @@
+{
+  "name": "hpc-template",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "benchmark",
+    "eigen3"
+  ],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "builtin"
+    }
+  }
+}
