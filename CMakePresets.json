@@ -13,7 +13,7 @@
     {
       "name": "release",
       "displayName": "Release Mode",
-      "description": "Optimized Release build using host SIMD extensions via vcpkg",
+      "description": "Optimized Release build using -O3 and -march=nativve",
       "inherits": "base",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release"

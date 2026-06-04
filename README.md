@@ -58,10 +58,10 @@ cmake --build build/debug
 ### 2. Release Build
 Compiles with `-O3` and `-march=native`. Use this one for benchmarking.
 ```bash
-cmake --preset release-native
+cmake --preset release
 
-cmake --build build/release-native
+cmake --build build/release
 
-./build/release-native/bench_runner
+./build/release/bench_runner
 ``` 
 
